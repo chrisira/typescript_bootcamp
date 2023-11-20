@@ -1,0 +1,7 @@
+using command line
+---------------------
+1.TO initialize a ts project you can use the command "npm init -y"
+and the the command will try to make a package.json file that contains some basic configurations
+
+2. to install the ts compiler in dev mode you use "npm i --save-dev typescript" command
+and then it will create some folder called "node_modules"
