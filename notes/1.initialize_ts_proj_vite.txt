@@ -1,0 +1,10 @@
+1. To initialize the project using vite you use the command "npm create vite@latest ."
+to install the vite in the current location hence the "." symbol
+
+2.It will show you bunch of project that you can choose from and then install 
+the vite into your favourite one.
+
+3.you also need to choose between ts or js
+
+4. vite will generate the placeholder codes to indicate it is working as well as some configurations
+

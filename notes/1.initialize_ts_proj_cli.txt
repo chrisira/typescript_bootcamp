@@ -1,0 +1,19 @@
+using command line
+---------------------
+1.TO initialize a ts project you can use the command "npm init -y"
+and the the command will try to make a package.json file that contains some basic configurations
+
+2. to install the ts compiler in dev mode you use "npm i --save-dev typescript" command
+and then it will create some folder called "node_modules" and package-lock.json .
+
+3.when you create a ts file by default it has no type selection you need to run the
+"npx tsc --init" to activate the typescript compiler.
+
+4. After running the above command there will be crated a tsconfig.json file that will 
+contain all the configurations regarding the typescript file you are running.
+
+5.to compile our file we use the "npx tsc [filename]" then it will convert the ts into json
+
+when we have the erro in the ts it will compile it ro js no matter what
+
+to resolve that issue you addd another option called "--noEmitOnError" flag
