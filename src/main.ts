@@ -6,6 +6,6 @@ type Person ={
 const person:Person = {name:"Chris",skillLevel:"Expert"}
 printSkillLevel(person.skillLevel);
 
-function printSkillLevel(skillLevel:"Beginner"|"Intermediate"|"Expert"){
+function printSkillLevel(skillLevel:Person["skillLevel"]){
     console.log(skillLevel);
 }
