@@ -10,7 +10,16 @@ const a : PeopleGroupedBySkillLevel = {
     'anystring':[{name:"Chris",skillLevel:"Beginner"}]
 }
 
-// other example
+// other example (array)
 const b =['Christian','IRADUKUNDA',true]
 
 type A =(typeof a)[number]
+
+// using object
+ const names = {
+    name:"Christian",
+    age:35,
+    isProgrammer:true
+ }
+
+ type B = (typeof a)[keyof typeof a]
