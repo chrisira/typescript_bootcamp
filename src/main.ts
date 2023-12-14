@@ -1,13 +1,11 @@
-type skillLevel = "Beginner" | "Intermediate" | "Expert" | "Master"
 type Person ={
     name:string;
-    skillLevel:skillLevel
+    skillLevel:"Beginner" | "Intermediate" | "Expert" | "Master"
+}
+type PeopleGroupedBySkillLevel = {
+    [index : string]:Person[]
 }
 
-
-const person:Person = {name:"Chris",skillLevel:"Expert"}
-printSkillLevel(person.skillLevel);
-
-function printSkillLevel(skillLevel:skillLevel){
-    console.log(skillLevel);
+const a : PeopleGroupedBySkillLevel = {
+    'anystring':[{name:"Chris",skillLevel:"Beginner"}]
 }
